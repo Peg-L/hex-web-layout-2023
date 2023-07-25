@@ -10,8 +10,9 @@
 @import "./utilities/text";
 @import "./utilities/flex";
 
+@import "./main";
 @import "./layout/navbar";
 @import "./layout/footer";
 
 @import "./pages/index";
-@import "./main";
+@import "./pages/branch";

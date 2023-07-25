@@ -1,0 +1,68 @@
+.branch {
+	padding: 96px 0 80px 0;
+}
+
+.branch-title {
+	border-left: 8px solid $red-1;
+	padding-left: 16px;
+	margin-bottom: 32px;
+}
+
+.branch-select {
+	position: relative;
+	margin-bottom: 40px;
+
+	span {
+		margin-right: 16px;
+	}
+
+	select {
+		padding: 6px 12px;
+		width: calc((306px / 1296px) * 100%);
+
+		// 隱藏原本箭頭樣式
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+
+	&::after {
+		content: "\25BC";
+		font-size: 10px;
+		position: absolute;
+		top: 50%;
+		transform: translate(-24px, -40%);
+		pointer-events: none;
+	}
+}
+
+.branch-group {
+	gap: 24px;
+}
+
+.branch-info {
+	width: calc((526px / 1296px) * 100%);
+}
+
+.branch-info-name {
+	padding: 8px 24px;
+}
+
+.branch-info-content {
+	padding: 16px 24px;
+	gap: 8px;
+
+	.material-symbols-outlined {
+		font-size: 18px;
+		margin-right: 8px;
+	}
+}
+
+.branch-map {
+	width: calc((746px / 1296px) * 100%);
+
+	iframe {
+		width: 100%;
+		height: auto;
+	}
+}
