@@ -1,0 +1,60 @@
+nav {
+	background-color: $red-2;
+}
+
+.logo h1 a {
+	background: url("../images/logo-white.png") no-repeat center / cover;
+	width: 80px;
+	height: 48.57px;
+	display: block;
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.menu {
+	gap: 64px;
+
+	a {
+		color: $white;
+		display: block;
+		padding: 25px 0;
+	}
+}
+
+// RWD
+@media (max-width: 767px) {
+	.nav.container {
+		padding: 0;
+	}
+
+	.nav {
+		flex-wrap: wrap;
+	}
+
+	.logo {
+		padding: 12px 0;
+		margin-left: 12px;
+	}
+
+	.menu {
+		width: 100%;
+		gap: 0;
+		flex-wrap: wrap;
+		font-size: 16px;
+		border: 1px solid $white;
+
+		li {
+			width: 50%;
+			&:nth-child(1),
+			&:nth-child(2) {
+				border-bottom: 1px solid $white;
+			}
+
+			&:nth-child(1),
+			&:nth-child(3) {
+				border-right: 1px solid $white;
+			}
+		}
+	}
+}

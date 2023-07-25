@@ -1,0 +1,41 @@
+.footer-content-group {
+	border-bottom: 1px solid $white;
+}
+
+.footer-info {
+	padding-top: 48px;
+	margin-bottom: 24px;
+}
+
+.sitemap {
+	gap: 48px;
+}
+
+.social-btns {
+	gap: 32px;
+
+	img {
+		width: 48px;
+	}
+}
+
+.contact {
+	margin-bottom: 32px;
+
+	.material-symbols-outlined {
+		font-size: 40px;
+		margin-right: 20px;
+	}
+
+	li:first-child {
+		margin-bottom: 8px;
+	}
+}
+
+.law {
+	padding: 32px 0;
+}
+
+.policy {
+	gap: 48px;
+}
