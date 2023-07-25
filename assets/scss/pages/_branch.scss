@@ -46,11 +46,13 @@
 
 .branch-info-name {
 	padding: 8px 24px;
+	border: 1px solid $black-1;
 }
 
 .branch-info-content {
 	padding: 16px 24px;
 	gap: 8px;
+	border: 1px solid $black-1;
 
 	.material-symbols-outlined {
 		font-size: 18px;
