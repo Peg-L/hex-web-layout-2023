@@ -44,19 +44,30 @@
 	width: calc((526px / 1296px) * 100%);
 }
 
-.branch-info-name {
-	padding: 8px 24px;
-	border: 1px solid $black-1;
+.branch-info-content {
+	p {
+		padding: 8px 24px;
+		border: 1px solid $black-1;
+	}
 }
 
 .branch-info-content {
-	padding: 16px 24px;
-	gap: 8px;
-	border: 1px solid $black-1;
+	ul {
+		padding: 16px 24px;
+		border: 1px solid $black-1;
+	}
+
+	li:not(:first-child) {
+		margin-top: 8px;
+	}
 
 	.material-symbols-outlined {
 		font-size: 18px;
 		margin-right: 8px;
+	}
+
+	a {
+		color: $black-2;
 	}
 }
 
@@ -66,5 +77,66 @@
 	iframe {
 		width: 100%;
 		height: auto;
+	}
+}
+
+// RWD - Pad
+@media (max-width: 767px) {
+	.branch {
+		padding: 80px 0;
+	}
+
+	.branch-group {
+		flex-wrap: wrap;
+	}
+
+	// 門市資訊
+	.branch-info {
+		width: 100%;
+		display: flex;
+		gap: 24px;
+
+		img {
+			object-fit: cover;
+			width: 50%;
+		}
+
+		&-content {
+			width: 50%;
+		}
+	}
+
+	// 地圖
+	.branch-map {
+		width: 100%;
+		aspect-ratio: 746/414;
+	}
+}
+
+// RWD - phone
+@media (max-width: 375px) {
+	.branch {
+		padding: 40px 0 64px 0;
+	}
+
+	.branch-title {
+		margin-bottom: 24px;
+	}
+
+	.branch-select {
+		margin-bottom: 24px;
+	}
+
+	.branch-info {
+		flex-direction: column;
+		gap: 0;
+
+		img {
+			width: 100%;
+		}
+
+		&-content {
+			width: 100%;
+		}
 	}
 }
