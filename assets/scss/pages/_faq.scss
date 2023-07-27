@@ -1,0 +1,29 @@
+.faq-subtitle {
+	margin-bottom: 24px;
+}
+
+.questions {
+	width: 67%;
+
+	li:not(:first-child) {
+		margin-top: 32px;
+	}
+
+	h4 {
+		margin-bottom: 8px;
+	}
+}
+
+@media (max-width: 767px) {
+	.questions {
+		width: 100%;
+	}
+}
+
+@media (max-width: 375px) {
+	.questions {
+		li:not(:first-child) {
+			margin-top: 24px;
+		}
+	}
+}
