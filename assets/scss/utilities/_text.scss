@@ -32,12 +32,20 @@
 }
 
 .fs-3 {
+	font-size: 16px;
+}
+
+.fs-4 {
 	font-size: 14px;
 }
 
 // font weight
 .bold {
 	font-weight: bold;
+}
+
+.medium {
+	font-weight: medium;
 }
 
 // text align
@@ -62,6 +70,19 @@
 	color: $white;
 }
 
-.text-gray {
+.text-gray-1 {
 	color: $gray-3;
+}
+
+.text-gray-2 {
+	color: $gray-3;
+}
+
+.text-gray-3 {
+	color: $gray-3;
+}
+
+// font style
+.italic {
+	font-style: italic;
 }
