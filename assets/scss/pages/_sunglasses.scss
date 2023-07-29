@@ -1,0 +1,54 @@
+.products-banner.sunglasses {
+	li {
+		&:first-child {
+			background: url("../images/product-header-3.png") no-repeat center / cover;
+		}
+
+		&:last-child {
+			background: url("../images/product-header-4.png") no-repeat center / cover;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.products-banner {
+		li {
+			&:first-child {
+				background: url("../images/product-header-sm-3.png") no-repeat center /
+					cover;
+			}
+
+			&:last-child {
+				background: url("../images/product-header-sm-4.png") no-repeat center /
+					cover;
+			}
+		}
+	}
+}
+
+.glasses.sunglasses {
+	li {
+		width: calc((100% - 48px) / 3);
+	}
+}
+
+@media (max-width: 768px) {
+	.glasses.sunglasses {
+		li {
+			width: calc((100% - 24px) / 2);
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.glasses.sunglasses {
+		li {
+			width: 100%;
+			margin-bottom: 24px;
+
+			&:last-child {
+				margin-bottom: 64px;
+			}
+		}
+	}
+}

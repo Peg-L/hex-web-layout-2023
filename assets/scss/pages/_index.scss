@@ -258,8 +258,10 @@
 	.contact {
 		padding: 0;
 	}
+}
 
-	.py-sm-1 {
+@media (max-width: 375px) {
+	.py-1 {
 		padding: 40px 0;
 	}
 }

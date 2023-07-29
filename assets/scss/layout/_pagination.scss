@@ -1,0 +1,25 @@
+.pagination {
+	a {
+		display: block;
+		padding: 12px 16px;
+		font-size: 18px;
+		color: $gray-3;
+		border: 1px solid $gray-3;
+		border-right: none;
+
+		&:hover {
+			background-color: $gray-4;
+		}
+
+		&.active {
+			background-color: $black-2;
+			color: $white;
+		}
+	}
+
+	li:last-child {
+		a {
+			border-right: 1px solid $gray-3;
+		}
+	}
+}

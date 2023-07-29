@@ -14,9 +14,11 @@
 @import "./main";
 @import "./layout/navbar";
 @import "./layout/footer";
-
-@import "../components/page-title";
+@import "./layout/pagination";
+@import "./layout/page-title";
 
 @import "./pages/index";
 @import "./pages/branch";
 @import "./pages/faq";
+@import "./pages/optical";
+@import "./pages/sunglasses";
