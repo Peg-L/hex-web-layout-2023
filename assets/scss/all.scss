@@ -12,13 +12,16 @@
 @import "./utilities/spacing";
 
 @import "./main";
-@import "./layout/navbar";
-@import "./layout/footer";
-@import "./layout/pagination";
-@import "./layout/page-title";
+@import "./layout/l-navbar";
+@import "./layout/l-footer";
+@import "./layout/l-pagination";
+@import "./layout/l-page-title";
+@import "./layout/l-select";
+@import "./layout/l-branch";
 
 @import "./pages/index";
 @import "./pages/branch";
+@import "./pages/branches";
 @import "./pages/faq";
 @import "./pages/optical";
 @import "./pages/sunglasses";

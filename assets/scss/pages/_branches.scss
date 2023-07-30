@@ -1,0 +1,37 @@
+.branches {
+	.branch-group {
+		flex-wrap: wrap;
+		row-gap: 48px;
+	}
+
+	.branch-info {
+		width: calc((100% - 48px) / 3);
+
+		a {
+			display: block;
+			text-align: center;
+			font-size: 19px;
+			padding: 16px 0;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.branches {
+		.branch-group {
+			row-gap: 24px;
+		}
+
+		.branch-info {
+			width: calc((100% - 24px) / 2);
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.branches {
+		.branch-info {
+			width: 100%;
+		}
+	}
+}

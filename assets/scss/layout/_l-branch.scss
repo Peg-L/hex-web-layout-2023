@@ -1,0 +1,38 @@
+.branch-group {
+	gap: 24px;
+}
+
+.branch-info-content {
+	p {
+		padding: 8px 24px;
+		border: 1px solid $black-1;
+	}
+	ul {
+		padding: 16px 24px;
+		border: 1px solid $black-1;
+	}
+
+	li:not(:first-child) {
+		margin-top: 8px;
+	}
+
+	.material-symbols-outlined {
+		font-size: 18px;
+		margin-right: 8px;
+	}
+
+	a {
+		color: $black-2;
+	}
+}
+
+// RWD - phone
+@media (max-width: 375px) {
+	.branch-title {
+		margin-bottom: 24px;
+	}
+
+	.branch-select {
+		margin-bottom: 24px;
+	}
+}

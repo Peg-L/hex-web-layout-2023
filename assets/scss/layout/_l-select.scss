@@ -1,0 +1,46 @@
+.select {
+	position: relative;
+	margin-bottom: 40px;
+
+	span {
+		margin-right: 16px;
+	}
+
+	select {
+		padding: 6px 12px;
+		width: 306px;
+
+		// 隱藏原本箭頭樣式
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+
+	&::after {
+		content: "\25BC";
+		font-size: 10px;
+		position: absolute;
+		top: 50%;
+		transform: translate(-24px, -40%);
+		pointer-events: none;
+	}
+}
+
+// RWD - phone
+@media (max-width: 375px) {
+	.select {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 24px;
+
+		span {
+			margin-right: 8px;
+			font-size: 16px;
+		}
+
+		select {
+			width: calc((276px / 375px) * 100%);
+		}
+	}
+}
