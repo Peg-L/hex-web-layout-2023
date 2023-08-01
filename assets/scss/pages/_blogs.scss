@@ -1,0 +1,96 @@
+.blog-list {
+	row-gap: 60px;
+
+	li {
+		.blog-image,
+		.blog-content {
+			width: calc(50% - 12px);
+		}
+
+		.blog-image {
+			overflow: hidden;
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
+	li:last-child {
+		margin-bottom: 124px;
+	}
+
+	.blog-info {
+		margin-bottom: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.blog-list {
+		row-gap: 24px;
+
+		li:last-child {
+			margin-bottom: 80px;
+		}
+	}
+
+	.blog-content-top {
+		h3 {
+			font-size: 24px;
+		}
+
+		.blog-info {
+			margin-bottom: 4px;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	}
+
+	.article {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		/* 設定顯示的最大行數為 6 行 */
+		-webkit-line-clamp: 6;
+		position: relative; /* 添加相对定位 */
+
+		&::after {
+			content: ".....more";
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background: white;
+		}
+	}
+
+	.btn-more {
+		display: none;
+	}
+}
+
+@media (max-width: 375px) {
+	.blog-list {
+		li {
+			flex-direction: column;
+
+			.blog-image,
+			.blog-content {
+				width: 100%;
+			}
+
+			.blog-image {
+				margin-bottom: 4px;
+			}
+
+			&:last-child {
+				margin-bottom: 64px;
+			}
+		}
+	}
+
+	.article {
+		display: none;
+	}
+}

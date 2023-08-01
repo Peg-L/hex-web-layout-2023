@@ -42,3 +42,42 @@ $align-items: (
 		align-items: $value;
 	}
 }
+
+$flex-wrap: (
+	"wrap": wrap,
+	"nowrap": nowrap,
+);
+
+@each $key, $value in $flex-wrap {
+	.flex-#{$key} {
+		flex-wrap: $value;
+	}
+}
+
+$flex-direciton: (
+	"row": row,
+	"row-reverse": row-reverse,
+	"column": column,
+	"column-reverse": column-reverse,
+);
+
+@each $key, $value in $flex-direciton {
+	.flex-#{$key} {
+		flex-direction: $value;
+	}
+}
+
+$align-self: (
+	"start": flex-start,
+	"center": center,
+	"end": flex-end,
+	"auto": auto,
+	"stretch": stretch,
+	"baseline": baseline,
+);
+
+@each $key, $value in $align-self {
+	.align-self-#{$key} {
+		align-self: $value;
+	}
+}

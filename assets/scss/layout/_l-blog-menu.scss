@@ -1,0 +1,25 @@
+.blog-menu {
+	.blog-submenu {
+		gap: 48px;
+	}
+
+	a {
+		display: block;
+		padding: 13px 0;
+		color: $white;
+	}
+
+	span {
+		cursor: pointer;
+		font-size: 29px;
+		padding: 13px 0;
+	}
+}
+
+@media (max-width: 375px) {
+	.blog-menu {
+		span {
+			display: none;
+		}
+	}
+}
