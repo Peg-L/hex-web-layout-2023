@@ -6,6 +6,19 @@
 		margin-right: 16px;
 	}
 
+	.select-arrow {
+		position: relative;
+
+		&::after {
+			content: "\25BC";
+			font-size: 10px;
+			position: absolute;
+			top: 50%;
+			transform: translate(-24px, -40%);
+			pointer-events: none;
+		}
+	}
+
 	select {
 		padding: 6px 12px;
 		width: 306px;
@@ -14,15 +27,6 @@
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
-	}
-
-	&::after {
-		content: "\25BC";
-		font-size: 10px;
-		position: absolute;
-		top: 50%;
-		transform: translate(-24px, -40%);
-		pointer-events: none;
 	}
 }
 
@@ -39,8 +43,12 @@
 			font-size: 16px;
 		}
 
-		select {
+		.select-arrow {
 			width: calc((276px / 375px) * 100%);
+		}
+
+		select {
+			width: 100%;
 		}
 	}
 }

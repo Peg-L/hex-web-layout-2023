@@ -23,6 +23,10 @@
 	.blog-info {
 		margin-bottom: 16px;
 	}
+
+	.btn-more:hover {
+		color: $red-2;
+	}
 }
 
 @media (max-width: 768px) {

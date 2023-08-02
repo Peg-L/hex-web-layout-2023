@@ -3,7 +3,7 @@
 }
 
 .branch-info-content {
-	p {
+	h3 {
 		padding: 8px 24px;
 		border: 1px solid $black-1;
 	}
@@ -24,6 +24,10 @@
 
 	a {
 		color: $black-2;
+
+		&:hover {
+			color: $red-2;
+		}
 	}
 }
 

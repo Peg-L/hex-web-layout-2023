@@ -7,11 +7,16 @@
 	.branch-info {
 		width: calc((100% - 48px) / 3);
 
-		a {
+		.btn-moreinfo {
+			transition: background-color 0.3s ease-in-out;
 			display: block;
 			text-align: center;
 			font-size: 19px;
 			padding: 16px 0;
+
+			&:hover {
+				background-color: $red-2;
+			}
 		}
 	}
 }
@@ -28,7 +33,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 575px) {
 	.branches {
 		.branch-info {
 			width: 100%;

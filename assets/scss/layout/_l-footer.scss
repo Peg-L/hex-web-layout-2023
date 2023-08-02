@@ -10,6 +10,15 @@
 
 .sitemap {
 	gap: 48px;
+
+	a {
+		display: block;
+		transition: transform 0.2s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
 }
 
 .social-btns {
@@ -17,6 +26,12 @@
 
 	img {
 		width: 48px;
+
+		transition: transform 0.2s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 }
 
@@ -29,12 +44,30 @@
 	li:first-child {
 		margin-bottom: 8px;
 	}
+
+	a {
+		transition: transform 0.2s ease-in-out;
+
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
 }
 
 .law {
 	padding: 32px 0;
+
 	* {
 		color: inherit;
+	}
+
+	a {
+		display: block;
+		transition: transform 0.2s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 }
 

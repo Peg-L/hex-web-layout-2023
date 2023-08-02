@@ -5,6 +5,10 @@
 		position: relative;
 		border-right: 1px solid $gray-1;
 		border-left: 1px solid $gray-1;
+
+		&:hover {
+			background-color: $red-3;
+		}
 	}
 
 	// 增加底線標示
@@ -112,6 +116,7 @@
 	li {
 		width: calc((100% - 72px) / 4);
 		margin-bottom: 80px;
+		transition: box-shadow 0.3s ease-in-out;
 
 		p {
 			font-size: 24px;
@@ -124,6 +129,10 @@
 		p:last-child {
 			color: $red-2;
 			font-weight: 600;
+		}
+
+		&:hover {
+			box-shadow: 1px 1px 10px $black-1;
 		}
 	}
 	flex-wrap: wrap;

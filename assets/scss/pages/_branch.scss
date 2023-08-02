@@ -11,6 +11,10 @@
 	}
 }
 
+.branch-phone:hover {
+	// text-
+}
+
 // RWD - Pad
 @media (max-width: 768px) {
 	.branch-group {
@@ -40,6 +44,21 @@
 	}
 }
 
+@media (max-width: 575px) {
+	.branch-info {
+		flex-direction: column;
+		gap: 0;
+
+		img {
+			width: 100%;
+		}
+
+		&-content {
+			width: 100%;
+		}
+	}
+}
+
 // RWD - phone
 @media (max-width: 375px) {
 	.branch {
@@ -52,18 +71,5 @@
 
 	.branch-select {
 		margin-bottom: 24px;
-	}
-
-	.branch-info {
-		flex-direction: column;
-		gap: 0;
-
-		img {
-			width: 100%;
-		}
-
-		&-content {
-			width: 100%;
-		}
 	}
 }
