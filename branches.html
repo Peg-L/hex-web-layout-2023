@@ -9,8 +9,8 @@
 			href="/hex-web-layout-2023/assets/favicon-8c6af04b.ico"
 			rel="shortcut icon"
 			type="image/x-icon" />
-		<script type="module" crossorigin src="/hex-web-layout-2023/assets/main-4afb1f84.js"></script>
-		<link rel="stylesheet" href="/hex-web-layout-2023/assets/main-18874d8d.css">
+		<script type="module" crossorigin src="/hex-web-layout-2023/assets/main-57414c03.js"></script>
+		<link rel="stylesheet" href="/hex-web-layout-2023/assets/main-7a00ba19.css">
 	</head>
 	<body>
 		<nav>
@@ -33,12 +33,14 @@
 
 				<div class="select">
 					<span class="h6">選擇地區</span>
-					<select class="fs-2 text-gray-3">
-						<option>請選擇地區</option>
-						<option value="台北市" selected>台北市</option>
-						<option value="台中市">台中市</option>
-						<option value="高雄市">高雄市</option>
-					</select>
+					<div class="select-arrow d-inline-block">
+						<select class="fs-2 text-gray-3">
+							<option>請選擇地區</option>
+							<option value="台北市" selected>台北市</option>
+							<option value="台中市">台中市</option>
+							<option value="高雄市">高雄市</option>
+						</select>
+					</div>
 				</div>
 
 				<ul class="branch-group branches d-flex">
@@ -48,7 +50,7 @@
 							alt="台北中山旗艦店"
 							class="branch-info-img" />
 						<div class="branch-info-content">
-							<p class="h6">台北中山旗艦店</p>
+							<h3 class="h6">台北中山旗艦店</h3>
 							<ul class="fs-1">
 								<li class="d-flex align-items-center">
 									<span class="material-symbols-outlined"> call </span>
@@ -58,13 +60,15 @@
 									<span class="material-symbols-outlined"> schedule </span>
 									營業時間：10:00-21:00
 								</li>
-								<li class="d-flex align-items-center">
+								<li class="d-flex align-items-baseline">
 									<span class="material-symbols-outlined"> location_on </span>
 									地址：台北市中山區南京東路25巷2-1號
 								</li>
 							</ul>
 						</div>
-						<a class="bg-black text-white" href="./branch.html">詳細資訊</a>
+						<a class="btn-moreinfo bg-black text-white" href="./branch.html"
+							>詳細資訊</a
+						>
 					</li>
 					<li class="branch-info">
 						<img
@@ -72,7 +76,7 @@
 							alt="台北綠園店"
 							class="branch-info-img" />
 						<div class="branch-info-content">
-							<p class="h6">台北綠園店</p>
+							<h3 class="h6">台北綠園店</h3>
 							<ul class="fs-1">
 								<li class="d-flex align-items-center">
 									<span class="material-symbols-outlined"> call </span>
@@ -82,13 +86,13 @@
 									<span class="material-symbols-outlined"> schedule </span>
 									營業時間：10:00-21:00
 								</li>
-								<li class="d-flex align-items-center">
+								<li class="d-flex align-items-baseline">
 									<span class="material-symbols-outlined"> location_on </span>
 									地址：台北市中正區復興南路 132-1 號
 								</li>
 							</ul>
 						</div>
-						<a class="bg-black text-white" href="###">詳細資訊</a>
+						<a class="btn-moreinfo bg-black text-white" href="###">詳細資訊</a>
 					</li>
 					<li class="branch-info">
 						<img
@@ -96,7 +100,7 @@
 							alt="台中清水旗艦店"
 							class="branch-info-img" />
 						<div class="branch-info-content">
-							<p class="h6">台中清水旗艦店</p>
+							<h3 class="h6">台中清水旗艦店</h3>
 							<ul class="fs-1">
 								<li class="d-flex align-items-center">
 									<span class="material-symbols-outlined"> call </span>
@@ -106,13 +110,13 @@
 									<span class="material-symbols-outlined"> schedule </span>
 									營業時間：10:00-21:00
 								</li>
-								<li class="d-flex align-items-center">
+								<li class="d-flex align-items-baseline">
 									<span class="material-symbols-outlined"> location_on </span>
 									地址：台中市清水區經南一路 23 號 8 樓
 								</li>
 							</ul>
 						</div>
-						<a class="bg-black text-white" href="###">詳細資訊</a>
+						<a class="btn-moreinfo bg-black text-white" href="###">詳細資訊</a>
 					</li>
 					<li class="branch-info">
 						<img
@@ -120,7 +124,7 @@
 							alt="高雄中正形象店"
 							class="branch-info-img" />
 						<div class="branch-info-content">
-							<p class="h6">高雄中正形象店</p>
+							<h3 class="h6">高雄中正形象店</h3>
 							<ul class="fs-1">
 								<li class="d-flex align-items-center">
 									<span class="material-symbols-outlined"> call </span>
@@ -130,13 +134,13 @@
 									<span class="material-symbols-outlined"> schedule </span>
 									營業時間：10:00-21:00
 								</li>
-								<li class="d-flex align-items-center">
+								<li class="d-flex align-items-baseline">
 									<span class="material-symbols-outlined"> location_on </span>
 									地址：高雄市苓雅區中正路 38 號 12 樓
 								</li>
 							</ul>
 						</div>
-						<a class="bg-black text-white" href="###">詳細資訊</a>
+						<a class="btn-moreinfo bg-black text-white" href="###">詳細資訊</a>
 					</li>
 					<li class="branch-info">
 						<img
@@ -144,7 +148,7 @@
 							alt="高雄夢時代店"
 							class="branch-info-img" />
 						<div class="branch-info-content">
-							<p class="h6">高雄夢時代店</p>
+							<h3 class="h6">高雄夢時代店</h3>
 							<ul class="fs-1">
 								<li class="d-flex align-items-center">
 									<span class="material-symbols-outlined"> call </span>
@@ -154,13 +158,13 @@
 									<span class="material-symbols-outlined"> schedule </span>
 									營業時間：10:00-21:00
 								</li>
-								<li class="d-flex align-items-center">
+								<li class="d-flex align-items-baseline">
 									<span class="material-symbols-outlined"> location_on </span>
 									地址：高雄市前鎮區中華一路 63 號 6 樓
 								</li>
 							</ul>
 						</div>
-						<a class="bg-black text-white" href="###">詳細資訊</a>
+						<a class="btn-moreinfo bg-black text-white" href="###">詳細資訊</a>
 					</li>
 				</ul>
 			</div>
