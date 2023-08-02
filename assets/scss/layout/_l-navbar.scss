@@ -28,7 +28,7 @@ nav {
 }
 
 // RWD
-@media (max-width: 768px) {
+@include pad {
 	.nav.container {
 		padding: 0;
 	}

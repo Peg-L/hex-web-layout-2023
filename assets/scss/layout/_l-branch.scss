@@ -32,7 +32,7 @@
 }
 
 // RWD - phone
-@media (max-width: 375px) {
+@include mobile {
 	.branch-title {
 		margin-bottom: 24px;
 	}

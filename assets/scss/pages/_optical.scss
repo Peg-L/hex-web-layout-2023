@@ -30,7 +30,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.submenu.container {
 		padding: 0;
 	}
@@ -43,7 +43,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.submenu {
 		a {
 			font-size: 16px;
@@ -71,7 +71,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.products-banner {
 		li {
 			&:first-child {
@@ -91,7 +91,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.products-banner {
 		a {
 			aspect-ratio: 188/136;
@@ -157,7 +157,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.glasses {
 		li {
 			width: calc((100% - 24px) / 2);
@@ -170,7 +170,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.glasses-group {
 		h2,
 		h3 {

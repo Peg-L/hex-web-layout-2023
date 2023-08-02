@@ -21,7 +21,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.branches {
 		.branch-group {
 			row-gap: 24px;

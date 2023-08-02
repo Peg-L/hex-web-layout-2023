@@ -29,7 +29,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.blog-list {
 		row-gap: 24px;
 
@@ -74,7 +74,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.blog-list {
 		li {
 			flex-direction: column;

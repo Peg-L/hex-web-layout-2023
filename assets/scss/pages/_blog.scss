@@ -107,7 +107,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.blog {
 		padding: 8px 0 80px 0;
 	}
@@ -160,7 +160,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.blog {
 		padding: 16px 0 64px 0;
 	}

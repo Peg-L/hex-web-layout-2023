@@ -23,7 +23,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.pagination {
 		a {
 			padding: 10px 11px;

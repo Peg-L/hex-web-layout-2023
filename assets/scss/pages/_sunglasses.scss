@@ -10,7 +10,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.products-banner {
 		li {
 			&:first-child {
@@ -32,7 +32,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.glasses.sunglasses {
 		li {
 			width: calc((100% - 24px) / 2);
@@ -40,7 +40,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.glasses.sunglasses {
 		li {
 			width: 100%;

@@ -31,7 +31,7 @@
 }
 
 // RWD - phone
-@media (max-width: 375px) {
+@include mobile {
 	.select {
 		display: flex;
 		justify-content: space-between;

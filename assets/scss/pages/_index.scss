@@ -20,7 +20,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.home-banner {
 		padding: 144px 0;
 	}
@@ -64,7 +64,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.features-group {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -75,7 +75,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.features {
 		h2 {
 			font-size: 24px;
@@ -107,7 +107,7 @@
 }
 
 // QA: 縮放時，optical 會變得特別小
-@media (max-width: 768px) {
+@include pad {
 	.classic-group {
 		flex-direction: column;
 		width: calc((336px / 768px) * 100%);
@@ -115,7 +115,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.classic-glasses {
 		.classic-group {
 			width: 100%;
@@ -141,14 +141,14 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.collab-group {
 		flex-direction: column;
 		gap: 24px;
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.collab {
 		h2 {
 			font-size: 24px;
@@ -178,7 +178,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.review-group {
 		flex-wrap: wrap;
 
@@ -188,7 +188,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.review {
 		h2 {
 			font-size: 24px;
@@ -257,7 +257,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.contact-group {
 		h2 {
 			font-size: 24px;
@@ -266,13 +266,13 @@
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.contact {
 		padding: 0;
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.contact-input {
 		margin-bottom: 24px;
 	}

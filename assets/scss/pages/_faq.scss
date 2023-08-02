@@ -14,13 +14,13 @@
 	}
 }
 
-@media (max-width: 768px) {
+@include pad {
 	.questions {
 		width: 100%;
 	}
 }
 
-@media (max-width: 375px) {
+@include mobile {
 	.questions {
 		li:not(:first-child) {
 			margin-top: 24px;

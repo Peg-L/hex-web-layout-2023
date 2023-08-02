@@ -16,7 +16,7 @@
 }
 
 // RWD - Pad
-@media (max-width: 768px) {
+@include pad {
 	.branch-group {
 		flex-wrap: wrap;
 	}
@@ -60,7 +60,7 @@
 }
 
 // RWD - phone
-@media (max-width: 375px) {
+@include mobile {
 	.branch {
 		padding: 40px 0 64px 0;
 	}
