@@ -1,13 +1,13 @@
 .bg-primary {
-	background-color: $red-2;
+	background-color: $primary;
 }
 
 .bg-secondary {
-	background-color: $red-1;
+	background-color: $primary-dark;
 }
 
 .bg-tertiary {
-	background-color: $red-3;
+	background-color: $primary-light;
 }
 
 .bg-white {
@@ -15,5 +15,5 @@
 }
 
 .bg-black {
-	background: $black-2;
+	background: $secondary;
 }

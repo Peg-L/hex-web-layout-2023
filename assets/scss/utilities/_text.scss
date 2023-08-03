@@ -43,15 +43,15 @@
 
 // text color
 .text-primary {
-	color: $red-1;
+	color: $primary;
 }
 
-.text-secondary {
-	color: $red-2;
+.text-primary-dark {
+	color: $primary-dark;
 }
 
 .text-tertiary {
-	color: $gray-3;
+	color: $tertiary-dark;
 }
 
 .text-white {
@@ -59,19 +59,20 @@
 }
 
 .text-gray-1 {
-	color: $gray-1;
+	color: $tertiary-light;
 }
 
 .text-gray-2 {
-	color: $gray-2;
+	color: $tertiary;
 }
 
 .text-gray-3 {
-	color: $gray-3;
+	color: $tertiary-dark;
 }
 
+// text-black 改成 text-secondary
 .text-black {
-	color: $black-2;
+	color: $secondary;
 }
 
 // font style

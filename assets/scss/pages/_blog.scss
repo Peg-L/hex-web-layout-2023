@@ -13,7 +13,7 @@
 		a {
 			color: inherit;
 			&:hover {
-				color: $red-1;
+				color: $primary-dark;
 			}
 		}
 		margin-bottom: 8px;
@@ -44,14 +44,14 @@
 .blog-pagination {
 	width: calc((856px / 1296px) * 100%);
 	padding-top: 24px;
-	border-top: 1px solid $gray-2;
+	border-top: 1px solid $tertiary;
 
 	a {
 		display: block;
-		color: $black-2;
+		color: $secondary;
 
 		&:hover {
-			color: $red-2;
+			color: $primary;
 		}
 
 		&:first-child {
@@ -102,7 +102,7 @@
 		margin-bottom: 4px;
 
 		&:hover {
-			color: $red-1;
+			color: $primary-dark;
 		}
 	}
 }

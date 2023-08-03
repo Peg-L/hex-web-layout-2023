@@ -1,21 +1,19 @@
 // font color
-$white: #fff;
+$primary: #aa0601;
+$primary-light: #fbf2f2;
+$primary-dark: #650300;
 
-$red-1: #650300;
-$red-2: #aa0601;
-$red-3: #fbf2f2;
-$red-4: #9f1213;
+$secondary: #000;
+$secondary-light: rgba(0, 0, 0, 0.16);
 
-$gray-1: #dee2e6;
-$gray-2: #707070;
-$gray-3: #555555;
-$gray-4: #f2f2f2;
-
-$black-1: rgba(0, 0, 0, 0.16);
-$black-2: #000;
+$tertiary: #707070;
+$tertiary-light: #dee2e6;
+$tertiary-dark: #555555;
 
 $brown-1: #5f3e2d;
 $brown-2: #b75929;
+
+$white: #fff;
 
 // font size
 $font-size-base: 1rem; // 16px

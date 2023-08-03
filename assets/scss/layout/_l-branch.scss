@@ -5,12 +5,12 @@
 .branch-info-content {
 	h3 {
 		padding: 8px 24px;
-		border: 1px solid $black-1;
+		border: 1px solid $secondary-light;
 	}
 
 	ul {
 		padding: 16px 24px;
-		border: 1px solid $black-1;
+		border: 1px solid $secondary-light;
 	}
 
 	li:not(:first-child) {
@@ -23,10 +23,10 @@
 	}
 
 	a {
-		color: $black-2;
+		color: $secondary;
 
 		&:hover {
-			color: $red-2;
+			color: $primary;
 		}
 	}
 }
