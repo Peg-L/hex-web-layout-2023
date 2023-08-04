@@ -18,7 +18,6 @@ nav {
 	a {
 		color: $white;
 		display: block;
-		padding: 25px 0;
 		transition: transform 0.2s ease-in-out;
 
 		&:hover {
@@ -29,24 +28,11 @@ nav {
 
 // RWD
 @include pad {
-	.nav.container {
-		padding: 0;
-	}
-
 	.nav {
 		flex-wrap: wrap;
 	}
 
-	.logo {
-		padding: 12px 0;
-		margin-left: 12px;
-	}
-
 	.menu {
-		a {
-			padding: 12px 0;
-		}
-
 		width: 100%;
 		gap: 0;
 		flex-wrap: wrap;
