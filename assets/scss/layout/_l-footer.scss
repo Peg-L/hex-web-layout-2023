@@ -38,6 +38,9 @@
 
 	a {
 		transition: transform 0.2s ease-in-out;
+		p {
+			word-break: break-word;
+		}
 
 		&:hover {
 			transform: translateY(-5px);
