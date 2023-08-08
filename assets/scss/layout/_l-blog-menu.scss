@@ -26,10 +26,29 @@
 	}
 }
 
-@include mobile {
+@include pad {
 	.blog-menu {
 		span {
 			display: none;
 		}
+	}
+}
+
+@media (max-width: 576px) {
+	.blog-menu {
+		& > div {
+			justify-content: center;
+		}
+
+		.blog-submenu {
+			font-size: 16px;
+			gap: 16px;
+		}
+	}
+}
+
+@include mobile {
+	.blog-menu {
+		display: none;
 	}
 }

@@ -1,10 +1,11 @@
 // 首頁橫幅
 .home-banner {
 	background: url("../images/home-header.png") no-repeat center / cover;
-	text-align: right;
 }
 
 .home-banner-content {
+	height: 787px;
+
 	a {
 		display: inline-block;
 		padding: 6px 12px;
@@ -19,8 +20,16 @@
 	}
 }
 
+@include pad {
+	.home-banner {
+		background: url("../images/home-header-sm.png") no-repeat center / cover;
+	}
+}
+
 @include mobile {
 	.home-banner-content {
+		height: 396px;
+
 		p {
 			font-size: 16px;
 		}
@@ -82,15 +91,18 @@
 .classic-group {
 	gap: 24px;
 
-	li {
-		flex: 1;
-	}
-
 	h3 {
 		text-align: center;
 	}
 }
 
+@media (max-width: 992px) {
+	.classic-group {
+		h3 {
+			font-size: 36px;
+		}
+	}
+}
 // QA: 縮放時，optical 會變得特別小
 @include pad {
 	.classic-group {
@@ -104,6 +116,10 @@
 	.classic-glasses {
 		.classic-group {
 			width: 100%;
+
+			h3 {
+				font-size: 24px;
+			}
 		}
 
 		h2 {
@@ -128,6 +144,10 @@
 	.collab-group {
 		flex-direction: column;
 		gap: 24px;
+
+		h3 {
+			font-size: 36px;
+		}
 	}
 }
 
@@ -135,6 +155,23 @@
 	.collab {
 		h2 {
 			font-size: 24px;
+		}
+	}
+
+	.collab-group {
+		h3 {
+			font-size: 24px;
+		}
+
+		li:first-child {
+			img {
+				content: url("../assets/images/home-section4-1-sm.png");
+			}
+		}
+		li:last-child {
+			img {
+				content: url("../assets/images/home-section4-2-sm.png");
+			}
 		}
 	}
 }

@@ -13,8 +13,9 @@
 	<body>
 		<%- include('./layout/navbar'); -%>
 
-		<div class="home-banner py-74 py-md-36">
-			<div class="container home-banner-content">
+		<div class="home-banner">
+			<div
+				class="container home-banner-content d-flex flex-column align-items-end justify-content-center text-align-end">
 				<p class="text-primary-dark">Promise-Desert 2020 早春系列</p>
 				<h2 class="h1 text-primary-dark bold mb-1 mb-md-2">
 					看得清，才能看得遠
@@ -133,7 +134,7 @@
 						<div class="review-item-content p-4">
 							<h3 class="mb-2">Jessy</h3>
 							<p class="mb-18">眼鏡品質優良，下次還會想來這邊購買！</p>
-							<p class="text-gray-2">2021/06/20</p>
+							<time class="text-gray-2" datetime="2021-06-20">2021/06/20</time>
 						</div>
 					</li>
 					<li>
@@ -143,7 +144,7 @@
 							<p class="mb-18">
 								做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
 							</p>
-							<p class="text-gray-2">2021/04/18</p>
+							<time class="text-gray-2" datetime="2021-04-18">2021/04/18</time>
 						</div>
 					</li>
 					<li>
@@ -153,7 +154,7 @@
 							<p class="mb-18">
 								謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
 							</p>
-							<p class="text-gray-2">2020/12/25</p>
+							<time class="text-gray-2" datetime="2020-12-25">2020/12/25</time>
 						</div>
 					</li>
 					<li>
@@ -161,7 +162,7 @@
 						<div class="review-item-content p-4">
 							<h3 class="mb-2">Kyuan</h3>
 							<p class="mb-18">服務很好，品質沒有任何問題，非常喜歡。</p>
-							<p class="text-gray-2">2020/10/31</p>
+							<time class="text-gray-2" datetime="2020-10-31">2020/10/31</time>
 						</div>
 					</li>
 				</ul>
@@ -188,7 +189,8 @@
 								name="username" />
 						</li>
 						<li>
-							<label for="phone">電話</label><br /><input
+							<label for="phone">電話</label>
+							<input
 								class="mt-2"
 								type="tel"
 								placeholder="0912-345-678"
@@ -197,7 +199,8 @@
 								pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
 						</li>
 						<li>
-							<label for="email">電子郵件</label><br /><input
+							<label for="email">電子郵件</label>
+							<input
 								class="mt-2"
 								type="email"
 								placeholder="example@email.com"
@@ -205,7 +208,8 @@
 								name="email" />
 						</li>
 						<li>
-							<label for="feedback">意見反應</label><br /><textarea
+							<label for="feedback">意見反應</label>
+							<textarea
 								class="mt-2"
 								id="feedback"
 								placeholder="請輸入您的意見"

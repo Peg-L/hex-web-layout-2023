@@ -74,12 +74,12 @@
 }
 
 .blog-articles {
-	li {
+	p {
 		margin-bottom: 40px;
+	}
 
-		img {
-			margin-bottom: 8px;
-		}
+	img {
+		margin-bottom: 8px;
 	}
 }
 
@@ -121,16 +121,16 @@
 	}
 
 	.blog-articles {
-		li {
+		p {
 			margin-bottom: 24px;
-
-			img {
-				margin-bottom: 16px;
-			}
 
 			&:last-child {
 				margin-bottom: 40px;
 			}
+		}
+
+		img {
+			margin-bottom: 16px;
 		}
 	}
 
@@ -182,16 +182,16 @@
 	}
 
 	.blog-articles {
-		li {
+		p {
 			margin-bottom: 16px;
-
-			img {
-				margin-bottom: 8px;
-			}
 
 			&:last-child {
 				margin-bottom: 16px;
 			}
+		}
+
+		img {
+			margin-bottom: 8px;
 		}
 	}
 
